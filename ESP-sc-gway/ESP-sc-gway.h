@@ -178,7 +178,6 @@
 // MQTT definitions, these settings should be standard for TTN
 // and need not changing
 #define _TTNPORT 1700						// Standard port for TTN
-#define _TTNSERVER "router.as1.thethings.network"
 #define _TTNSERVER "router.us.thethings.network"
 
 // If you have a second back-end server defined such as Semtech or loriot.io
