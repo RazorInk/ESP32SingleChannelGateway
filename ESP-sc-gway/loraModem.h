@@ -53,11 +53,10 @@ long txDelay= 0x00;								// delay time on top of server TMST
 //    434775000, 
 //};
 int freqs [] = {
-  902300000,
-  903000000,
-  923300000,
+  904100000,
+  904300000,
 };
-uint32_t  freq = freqs[2];
+uint32_t  freq = freqs[0];
 uint8_t	 ifreq = 0;								// Channel Index
 
 
@@ -391,4 +390,3 @@ struct LoraUp {
 #define MGT_RESET					0x15	// Not a LoRa Gateway Spec message
 #define MGT_SET_SF					0x16
 #define MGT_SET_FREQ				0x17
-
