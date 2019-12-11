@@ -53,6 +53,7 @@ long txDelay= 0x00;								// delay time on top of server TMST
 //    434775000, 
 //};
 int freqs [] = {
+  903900000,
   904100000,
   904300000,
 };

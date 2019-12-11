@@ -179,6 +179,7 @@
 // and need not changing
 #define _TTNPORT 1700						// Standard port for TTN
 #define _TTNSERVER "router.as1.thethings.network"
+#define _TTNSERVER "router.us.thethings.network"
 
 // If you have a second back-end server defined such as Semtech or loriot.io
 // your can define _THINGPORT and _THINGSERVER with your own value.
@@ -199,6 +200,7 @@
 
 // ntp
 #define NTP_TIMESERVER "sg.pool.ntp.org"	// Country and region specific
+#define NTP_TIMESERVER "2.us.pool.ntp.org"	// Country and region specific
 #define NTP_TIMEZONES	8					// How far is our Timezone from UTC (excl daylight saving/summer time)
 #define SECS_PER_HOUR	3600
 #define NTP_INTR 0							// Do NTP processing with interrupts or in loop();
